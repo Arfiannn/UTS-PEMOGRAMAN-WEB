@@ -155,3 +155,20 @@ footer{
     text-align: center;
     font-size: large;
 }
+
+@media screen and (max-width: 768px) {
+    .navmenu {
+        grid-auto-flow: row;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .InfoGame {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .KontakContainer, .KontakContainer1, .Linkrusak {
+        grid-template-columns: 1fr;
+    }
+}
