@@ -156,6 +156,12 @@ footer{
     font-size: large;
 }
 
+.BoxLink img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 @media screen and (max-width: 768px) {
     .navmenu {
         grid-auto-flow: row;
